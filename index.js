@@ -158,11 +158,11 @@ const discordClient = new Discord.Client()
 if (process.env.DEBUG)
     discordClient.on('debug', console.debug);
 discordClient.on('ready', () => {
-    console.log(`Logged in as ${discordClient.user.tag}!`)
+    console.log(`Logged in assss ${discordClient.user.tag}!`)
 })
 discordClient.login(DISCORD_TOK)
 
-const PREFIX = '*';
+const PREFIX = '!';
 const _CMD_HELP        = PREFIX + 'help';
 const _CMD_JOIN        = PREFIX + 'join';
 const _CMD_LEAVE       = PREFIX + 'leave';
